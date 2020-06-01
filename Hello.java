@@ -2,10 +2,14 @@ public class Hello {
 
 	public static void main(String[] args) {
 		// TODO (Auto-generated method stub
-		myCall(2020);
+		myCall();
 	}
-	static void myCall(int a){
-		System.out.print("Gnana welcome to Java world "+a);
+	static void myCall(){
+		System.out.println("Gnana welcome to Java world ");
+		
+		for (int a=0;a<10;a++) {
+			System.out.println("Hello Java Program ....."+a);
+		}
 	}
 
 }
