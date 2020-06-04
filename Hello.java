@@ -6,7 +6,7 @@ public class Hello {
 	}
 	static void myCall(){
 		System.out.println("Gnana welcome to Java world ");
-		System.out.println("**********Calling method myCall**************");
+		System.out.println("**********Calling method myCall to print the details**************");
 		
 		for (int a=0;a<10;a++) {
 			System.out.println("Hello Java Program ....."+a);
